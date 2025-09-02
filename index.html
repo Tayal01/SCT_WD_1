@@ -4,6 +4,8 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Travel Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="preload" as="image" href="assets/hero.jpg">
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
@@ -35,9 +37,11 @@
   <!-- About Section -->
   <section id="about">
     <h2>About My Journey</h2>
+    <div class="about-content">
     <p>
       Traveling is not just about places; it's about experiences. Every destination I visit is a story waiting to be told, captured, and shared.
     </p>
+    </div>
   </section>
 
   <!-- Gallery Section -->
@@ -54,18 +58,34 @@
   </section>
 
   <!-- Highlights Section -->
-  <section id="highlights">
-    <h2>Travel Highlights</h2>
-    <div class="highlight-cards">
-      <div class="card">🌍 Best Places to Visit</div>
-      <div class="card">💰 Budget-Friendly Trips</div>
-      <div class="card">📅 Best Seasons to Travel</div>
+<section id="highlights">
+  <h2>Travel Highlights</h2>
+  <p>Discover what makes your journeys unforgettable with our curated highlights.</p>
+  
+  <div class="highlight-cards">
+    <div class="card">
+      <div class="icon">🌍</div>
+      <h3>Best Places to Visit</h3>
+      <p>Explore breathtaking destinations from mountains to beaches.</p>
     </div>
-  </section>
+
+    <div class="card">
+      <div class="icon">💰</div>
+      <h3>Budget-Friendly Trips</h3>
+      <p>Plan your adventures without breaking the bank.</p>
+    </div>
+
+    <div class="card">
+      <div class="icon">📅</div>
+      <h3>Best Seasons to Travel</h3>
+      <p>Find the perfect time to make your travel dreams come true.</p>
+    </div>
+  </div>
+</section>
 
   <!-- Footer -->
   <footer id="contact">
-    <p>© 2025 Wanderlust | Designed with ❤️</p>
+    <p>© 2025 Wanderlust | Designed with ❤️ by <span class="designer">SkillCraft Intern</span></p>
   </footer>
 
   <script src="script.js"></script>
