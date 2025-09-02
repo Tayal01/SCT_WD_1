@@ -1,93 +1,102 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Travel Portfolio</title>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
-  <link rel="preload" as="image" href="assets/hero.jpg">
-  <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Travel Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <!-- <link rel="preload" as="image" href="assets/hero.jpg"> -->
+    <link rel="stylesheet" href="style.css" />
 </head>
+
 <body>
-  <!-- Navbar -->
-  <header id="navbar">
-    <div class="logo">Wanderlust</div>
-    <nav>
-      <ul>
-        <li><a href="#hero">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#gallery">Gallery</a></li>
-        <li><a href="#highlights">Highlights</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
-  </header>
+    <!-- Navbar -->
+    <header id="navbar">
+        <div class="logo">Wanderlust</div>
+        <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#highlights">Highlights</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
 
-  <!-- Hero Section -->
-  <section id="hero">
-    <div class="hero-content">
-      <h1>Explore. Capture. Remember.</h1>
-      <p>Discover breathtaking destinations with curated travel tips.</p>
-      <button class="cta-btn" onclick="document.querySelector('#gallery').scrollIntoView({behavior: 'smooth'})">
-        View Gallery
-      </button>
-    </div>
-  </section>
+    <!-- Hero Section -->
+    <section id="hero">
+        <div class="hero-content">
+            <h1>Explore. Capture. Remember.</h1>
+            <p>Discover breathtaking destinations with curated travel tips.</p>
+            <button class="cta-btn" onclick="document.querySelector('#gallery').scrollIntoView({behavior: 'smooth'})">
+                View Gallery
+            </button>
+        </div>
+    </section>
 
-  <!-- About Section -->
-  <section id="about">
-    <h2>About My Journey</h2>
-    <div class="about-content">
-    <p>
-      Traveling is not just about places; it's about experiences. Every destination I visit is a story waiting to be told, captured, and shared.
-    </p>
-    </div>
-  </section>
+    <!-- About Section -->
+    <section id="about">
+        <h2>About My Journey</h2>
+        <div class="about-content">
+            <p>
+                Traveling is not just about places; it's about experiences. Every destination I visit is a story waiting
+                to be told, captured, and shared.
+            </p>
+        </div>
+    </section>
 
-  <!-- Gallery Section -->
-  <section id="gallery">
-    <h2>Travel Gallery</h2>
-    <div class="gallery-grid">
-      <img src="assets/gallery1.jpg" alt="Destination 1">
-      <img src="assets/gallery2.jpg" alt="Destination 2">
-      <img src="assets/gallery3.jpg" alt="Destination 3">
-      <img src="assets/gallery4.jpg" alt="Destination 4">
-      <img src="assets/gallery5.jpg" alt="Destination 5">
-      <img src="assets/gallery6.jpg" alt="Destination 6">
-    </div>
-  </section>
+    <!-- Gallery Section -->
+    <section id="gallery">
+        <h2>Travel Gallery</h2>
+        <div class="gallery-grid">
+            <img src="assets/gallery1.jpg" alt="Destination 1">
+            <img src="assets/gallery2.jpg" alt="Destination 2">
+            <img src="assets/gallery3.jpg" alt="Destination 3">
+            <img src="assets/gallery4.jpg" alt="Destination 4">
+            <img src="assets/gallery5.jpg" alt="Destination 5">
+            <img src="assets/gallery6.jpg" alt="Destination 6">
+        </div>
+    </section>
 
-  <!-- Highlights Section -->
-<section id="highlights">
-  <h2>Travel Highlights</h2>
-  <p>Discover what makes your journeys unforgettable with our curated highlights.</p>
-  
-  <div class="highlight-cards">
-    <div class="card">
-      <div class="icon">🌍</div>
-      <h3>Best Places to Visit</h3>
-      <p>Explore breathtaking destinations from mountains to beaches.</p>
-    </div>
+    <!-- Highlights Section -->
+    <section id="highlights">
+        <h2>Travel Highlights</h2>
+        <p>Discover what makes your journeys unforgettable with our curated highlights.</p>
 
-    <div class="card">
-      <div class="icon">💰</div>
-      <h3>Budget-Friendly Trips</h3>
-      <p>Plan your adventures without breaking the bank.</p>
-    </div>
+        <div class="highlight-cards">
+            <div class="card">
+                <div class="icon">🌍</div>
+                <h3>Best Places to Visit</h3>
+                <p>Explore breathtaking destinations from mountains to beaches.</p>
+            </div>
 
-    <div class="card">
-      <div class="icon">📅</div>
-      <h3>Best Seasons to Travel</h3>
-      <p>Find the perfect time to make your travel dreams come true.</p>
-    </div>
-  </div>
-</section>
+            <div class="card">
+                <div class="icon">💰</div>
+                <h3>Budget-Friendly Trips</h3>
+                <p>Plan your adventures without breaking the bank.</p>
+            </div>
 
-  <!-- Footer -->
-  <footer id="contact">
-    <p>© 2025 Wanderlust | Designed with ❤️ by <span class="designer">SkillCraft Intern</span></p>
-  </footer>
+            <div class="card">
+                <div class="icon">📅</div>
+                <h3>Best Seasons to Travel</h3>
+                <p>Find the perfect time to make your travel dreams come true.</p>
+            </div>
+        </div>
+    </section>
 
-  <script src="script.js"></script>
+    <!-- Footer -->
+    <footer id="contact">
+        <p>© 2025 Wanderlust | Designed with ❤️ by <span class="designer">SkillCraft Intern</span></p>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
+
 </html>
